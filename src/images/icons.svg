@@ -53,8 +53,8 @@
                     stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 29.714h45.714"></path>
             </symbol>
             <symbol id="icon-ellipse" viewBox="0 0 32 32">
-                <path fill="currentColor" style="fill: var(--color5, #fff
-)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+                <path fill="currentColor" style="fill: var(--color5, #d9d9d9)"
+                    d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
             </symbol>
             <symbol id="icon-facebook" viewBox="0 0 16 32">
                 <path fill="currentColor" style="fill: var(--color1, #fff)"
