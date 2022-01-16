@@ -62,7 +62,14 @@
   color: #000;
   margin-bottom: 30px;
   &::before {
-    background-image: url(/src/images/icons.svg#);
+    background-image: url(../images/review-dots.png);
+    content: '';
+    display: block;
+    width: 32px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
   }
 }
 
