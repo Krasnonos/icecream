@@ -1,9 +1,12 @@
 // hero
 .hero {
     background-color: #FFB8CA;
-    @media screen and (max-width: 767px) { 
+    // height: 502px;
+    @media screen and (max-width: 768px) { 
       height: 438px;
-      padding-top: 193px;
+      // padding-top: 193px;
+      // padding-bottom: 160px;
+      padding-top: 129px;
       padding-bottom: 160px;
     }
     @media screen and (min-width: 768px) { 
@@ -13,7 +16,7 @@
   // main-block
   .hero__main-block { 
   position: relative; 
-  left: 20px;
+  // left: 20px;
   // padding-right: 82px;
   z-index: 3;
   @media screen and (min-width: 768px) { 
