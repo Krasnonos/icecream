@@ -1,5 +1,5 @@
 .footer {
-  background-color: $pink-bg-color;
+  background-color: $second-bg-color;
 }
 
 .footer__pre-title {
@@ -9,7 +9,7 @@
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  color: $pink-text-color;
+  color: $fourth-text-color;
 }
 
 .footer__title {
@@ -20,7 +20,7 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: $red-text-color;
+  color: $main-title-color;
 }
 
 .contacts-list {
@@ -43,11 +43,11 @@
   height: 100%;
   border-radius: 50%;
   color: #ffffff;
-  background-color: $pink-text-color;
+  background-color: $fourth-text-color;
   transition: background-color 250ms ease-in;
   &hover,
   &focus {
-    background-color: $red-text-color;
+    background-color: $main-btn-color;
   }
 }
 
@@ -63,12 +63,12 @@
   font-size: 12px;
   line-height: 186%;
   text-align: right;
-  color: $black-text-color;
+  color: $second-text-color;
 }
 
 .footer-tel__link {
   text-decoration: none;
-  color: $red-text-color;
+  color: $main-title-color;
 }
 
 .copyright {
@@ -78,5 +78,5 @@
   font-size: 14px;
   line-height: 152%;
   text-align: center;
-  color: $grey-text-color;
+  color: $third-text-color;
 }
