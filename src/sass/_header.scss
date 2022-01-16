@@ -1,0 +1,159 @@
+.heder{
+    @media screen and(min-width:320px) {
+
+    background: $pink-card-color;
+   height: 64px;
+}
+}
+
+.heder__logo-link{
+    @media screen and(min-width:320px){
+        position: fixed;
+        width: 199px;
+        height: 50px;
+        padding: 0px;
+        // margin-left: 20px;
+        margin-top: 6px;
+        z-index: 2;
+        }
+}
+
+
+.menu__button-open{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    transform: translate(-15px,20px);
+    border: none;
+    color: $pink-text-color;
+    padding: 0;
+    background-color:$hero-bg-color ;
+    
+}
+
+// .mob-menu__svg{
+//     color: aqua;
+// }
+
+.mobile-menu{
+    @media screen and(min-width:320px){
+    position: fixed;
+    left: 0;
+    top: 0;
+width: 100vw;
+height: 100vh;
+background: #E17992;
+z-index: 999;
+
+// transform: translateX(100%);
+
+& .is-open{
+    transform: translateX(0%);  
+}
+}
+}
+
+.mobile-menu__button-closed{
+    @media screen and(min-width:320px){
+        border: none;
+        padding: 0px;
+        margin-right: auto;
+       
+       
+        background: #E17992;
+        
+        position: absolute;
+        content: "";
+        top: 0; 
+        right: 0;
+        transform: translate(-15px,20px);
+}
+}
+
+.button-wrap{
+@media screen and(min-width:320px){
+    display: flex;
+    justify-content: center;
+    padding-bottom: 19px;
+    margin-top: 60px;
+    }
+    }
+
+.button-buy-now{
+    @media screen and(min-width:320px){
+width: 209px;
+height: 44px;
+width: 209px;
+height: 44px;
+left: 21px;
+top: 60px;
+border: none;
+
+
+background: #FFFFFF;
+border-radius: 22px;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(21/16);
+// display: flex;
+// align-items: center;
+// text-align: center;
+}
+}
+
+.button-Buy-now__img{
+    @media screen and(min-width:320px){
+margin-left: 15.77px;
+}
+}
+
+.nav-list__item{
+    @media screen and(min-width:320px){
+padding-top: 13px;
+padding-bottom: 11px;
+padding-left: 21px;
+border-top: 1px solid #E18298;
+border-bottom: 1px solid #E18298;
+// & :last-child{
+//     border-bottom: 1px solid #E18298; 
+// }
+
+
+// изменить цвет
+&.mobile-menu-link :hover,
+&.mobile-menu-link :focus,
+&.mobile-menu-link :active{
+    color: $red-text-color;
+}
+}
+}
+
+.nav-list__link{   
+    text-decoration: none;
+    @media screen and(min-width:320px){
+font-family: DM Sans;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(18/14) ;
+// display: flex;
+// align-items: center;
+
+color:#FFFFFF;
+// изменить цвет
+
+&:hover,
+&:focus,
+&:active{
+    color: $red-text-color;
+    // изменить цвет
+}
+&.mobile-menu-item :hover,
+&.mobile-menu-item :active,    
+&.mobile-menu-item :focus{
+    color: $red-text-color;
+    // изменить цвет
+}
+}
+}
