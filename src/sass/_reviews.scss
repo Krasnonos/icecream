@@ -24,6 +24,7 @@
   padding: 43px 66px 26px 57px;
   margin-bottom: 30px;
 }
+
 .review__section__text {
   font-family: DM Sans;
   font-style: normal;
@@ -32,19 +33,10 @@
   line-height: 255%;
   text-align: center;
   color: #000;
-}
-.review__section__text::before {
-  content: '';
-  position: absolute;
-  left: 61px;
-  top: 28px;
-  width: 54px;
-  height: 40px;
   background-image: url(../images/quotes-min.png);
-  //   background: #e1e1e1;
-  transform: rotate(-180deg);
+  background-repeat: no-repeat;
 }
-//   background-size: 100px 100px;
+
 .review__dots {
   display: flex;
   justify-content: center;
