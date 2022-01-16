@@ -1,0 +1,188 @@
+                            // х е д д е р
+
+                            .section_heder{
+                                .container-filter-button {
+                                    padding-left: 15px;
+                                    padding-right: 15px;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    width: auto;
+                                    }
+                            @media screen and(min-width:320px) {
+                            
+                                background: #FFB8CA;
+                               height: 64px;
+                            
+                            }
+                            }
+                            
+                            .heder__button{
+                                @media screen and(min-width:320px){
+                                position: fixed;
+                                width: 199px;
+                                height: 50px;
+                                padding: 0px;
+                                margin-left: 20px;
+                                margin-top: 6px;
+                                z-index: 2;
+                                }
+                            }
+                            
+                            
+                            .mob-menu__button-open{
+                                @media screen and(min-width:320px){
+                                border: none;
+                                background-color: #FFB8CA;
+                                margin-top: 25px;
+                                // display: block;
+                            }
+                            }
+                            
+                            .heder__button{
+                                @media screen and(min-width:320px){
+                                border: none;
+                                background: rgba(255, 0, 83, 0);
+                                // заменить цвет
+                              
+                            }
+                            }
+                            
+                            .mob-menu__button-open{
+                                margin-right: 0 auto;
+                            }
+                            
+                            .heder__div{
+                                @media screen and(min-width:320px){
+                                display: flex;
+                                justify-content: flex-end;
+                            }
+                            }
+                            // м о б и л ь н о е  м е н ю
+                            
+                            .mob-menu{
+                                @media screen and(min-width:320px){
+                                position: fixed;
+                                left: 0;
+                                top: 0;
+                            width: 100vw;
+                            height: 100vh;
+                            background: #E17992;
+                            z-index: 999;
+                            
+                            transform: translateX(100%);
+                            
+                            & .is-open{
+                                transform: translateX(0%);  
+                            }
+                            }
+                            }
+                                                        
+                                                        
+                            .mobile-menu-closed-div{
+                                @media screen and(min-width:320px){
+                            display: flex;
+                            justify-content: flex-end;
+                            }
+                            }
+                            
+                            .mobile-menu-closed{
+                                @media screen and(min-width:320px){
+                            border: none;
+                            padding: 0px;
+                            margin-right: auto;
+                            margin-left: 0px;
+                            margin-top: 23px;
+                            margin-right: 28px;
+                            background: #E17992;
+                            
+                            // position: absolute;
+                            // content: "";
+                            // top: 0; 
+                            // right: 0;
+                            // transform: translate(-2px, 20px);
+                            }
+                            }
+                            
+                            .heder__button-buy-now-div{
+                                @media screen and(min-width:320px){
+                            display: flex;
+                            justify-content: center;
+                            padding-bottom: 19px;
+                            }
+                            }
+                            
+                            .heder__button-buy-now{
+                                @media screen and(min-width:320px){
+                            width: 209px;
+                            height: 44px;
+                            width: 209px;
+                            height: 44px;
+                            left: 21px;
+                            top: 60px;
+                            border: none;
+                            
+                            
+                            background: #FFFFFF;
+                            border-radius: 22px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: calc(21/16);
+                            // display: flex;
+                            // align-items: center;
+                            // text-align: center;
+                            }
+                            }
+                                                        
+                            .button-Buy-now-svg{
+                                @media screen and(min-width:320px){
+                            margin-left: 15.77px;
+                            }
+                            }
+                            
+                            .mobile-menu-list{
+                            // список меню
+                            }
+                            
+                            .mobile-menu-item{
+                                @media screen and(min-width:320px){
+                            padding-top: 13px;
+                            padding-bottom: 11px;
+                            padding-left: 21px;
+                            border-top: 1px solid #E18298;
+                            border-bottom: 1px solid #E18298;
+                            // изменить цвет
+                            &.mobile-menu-link :hover,
+                            &.mobile-menu-link :focus,
+                            &.mobile-menu-link :active{
+                                color: #D41443;
+                            }
+                            }
+                            }
+                            
+                            .mobile-menu-link{
+                                @media screen and(min-width:320px){
+                            font-family: DM Sans;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: calc(18/14) ;
+                            // display: flex;
+                            // align-items: center;
+                            
+                            color:#FFFFFF;
+                            // изменить цвет
+                            
+                            &:hover,
+                            &:focus,
+                            &:active{
+                                color: #D41443;
+                                // изменить цвет
+                            }
+                            &.mobile-menu-item :hover,
+                            &.mobile-menu-item :active,    
+                            &.mobile-menu-item :focus{
+                                color: #D41443;
+                                // изменить цвет
+                            }
+                            }
+                            }
