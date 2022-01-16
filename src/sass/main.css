@@ -165,7 +165,7 @@ img {
   color: #907e82;
 }
 
-/* Modal - Form */
+/* Modal -- Form */
 .backdrop {
   width: 100vw;
   height: 100vh;
@@ -404,7 +404,7 @@ img {
 }
 
 .modal__checkbox-text::before {
-  content: "";
+  content: '';
   width: 38px;
   height: 22px;
   border-radius: 50px;
@@ -418,7 +418,7 @@ img {
 }
 
 .modal__checkbox-text::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 1px;
   top: 2px;
@@ -444,7 +444,7 @@ img {
     color: #e17992;
   }
   .modal__checkbox-text::before {
-    content: "";
+    content: '';
     width: 25px;
     height: 8px;
     border-radius: 50px;
@@ -457,7 +457,7 @@ img {
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .modal__checkbox-text::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 1px;
     top: 3px;
@@ -502,5 +502,157 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
   }
+}
+
+/* Modal -- Info */
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 400ms, visibility 400ms;
+  transition: opacity 400ms, visibility 400ms;
+}
+
+.backdrop.is-hidden .modal__info {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.modal__info {
+  width: 528px;
+  min-height: 581px;
+  background-color: #fff5f6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(#2f303a66)), url(../img/modal-cow.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66), url(../img/modal-cow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: scale(1) translate(-50%, -50%);
+          transform: scale(1) translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+  padding: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .modal__info {
+    width: 450px;
+    height: 609px;
+  }
+}
+
+.modal__button-commit {
+  width: 200px;
+  height: 50px;
+  border-radius: 22px;
+  background-color: #e17992;
+  color: #ffffff;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border: none;
+}
+
+.modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #e17992;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal__close-icon {
+  -webkit-transition: fill 250ms linear;
+  transition: fill 250ms linear;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: #850000;
+  border: none;
+}
+
+.modal__close-icon:hover {
+  fill: #d41443;
+}
+
+.modal__close {
+  border: none;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__title-info {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 0px;
+  margin-top: 3px;
+  color: #ececec;
+}
+
+.modal__product-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ececec;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*
+.modal__contacts {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-left: 160px;
+}
+.modal__contacts-number {
+  color: #d41443;
+}
+*/
+.modal__footer-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
