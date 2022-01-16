@@ -66,9 +66,17 @@
     margin-right: 0;
   }
 }
-.slider-list__icon {
-  fill: #000;
+.slider-list__link {
+  color: transparent;
 }
+.slider-list__link:hover .slider-list__icon,
+.slider-list__link:focus .slider-list__icon {
+  fill: #d41443;
+}
+.slider-list__icon {
+  fill: #d9d9d9;
+}
+
 // .slider-list__link {
 //   fill: #d9d9d9;
 // }
