@@ -1,17 +1,17 @@
 .advantages {
   padding-top: 39px;
 }
-.advantages__h2 {
+.advantages__title {
 }
 .advantages-list {
 }
-.advantages-list__li {
+.advantages-list__item {
   margin-bottom: 38px;
   &:last-child {
     margin-bottom: 0px;
   }
 }
-.advantages-list__h3 {
+.advantages-list__pretitle {
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
@@ -21,7 +21,7 @@
   text-transform: uppercase;
   color: #d41443;
 }
-.advantages-list__h3.icecream-1 {
+.advantages-list__pretitle.icecream-1 {
   &::before {
     content: '';
     display: block;
@@ -32,7 +32,7 @@
     margin-bottom: 16px;
   }
 }
-.advantages-list__h3.icecream-2 {
+.advantages-list__pretitle.icecream-2 {
   &::before {
     content: '';
     display: block;
@@ -43,7 +43,7 @@
     margin-bottom: 16px;
   }
 }
-.advantages-list__h3.icecream-3 {
+.advantages-list__pretitle.icecream-3 {
   &::before {
     content: '';
     display: block;
@@ -54,7 +54,7 @@
     margin-bottom: 16px;
   }
 }
-.advantages-list__p {
+.advantages-list__text {
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
