@@ -5,6 +5,11 @@
     margin-right: auto;
     width: auto;
 }
+
+.heder__title{
+opacity: 1;
+}
+
 .heder{
     @media screen and(min-width:320px) {
 
@@ -52,7 +57,7 @@ height: 100vh;
 background: #E17992;
 z-index: 999;
 
-// transform: translateX(100%);
+transform: translateX(100%);
 
 & .is-open{
     transform: translateX(0%);  
@@ -121,6 +126,7 @@ padding-bottom: 11px;
 padding-left: 21px;
 border-top: 1px solid #E18298;
 border-bottom: 1px solid #E18298;
+
 // изменить цвет
 &.mobile-menu-link :hover,
 &.mobile-menu-link :focus,
