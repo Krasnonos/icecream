@@ -19,6 +19,7 @@
   justify-content: center;
 }
 .review__section {
+  position: relative;
   background-color: #fafafa;
   padding: 43px 66px 26px 57px;
   margin-bottom: 30px;
@@ -32,6 +33,18 @@
   text-align: center;
   color: #000;
 }
+.review__section__text::before {
+  content: '';
+  position: absolute;
+  left: 61px;
+  top: 28px;
+  width: 54px;
+  height: 40px;
+  background-image: url(../images/quotes-min.png);
+  background: #e1e1e1;
+  transform: rotate(-180deg);
+}
+//   background-size: 100px 100px;
 .review__dots {
   display: flex;
   justify-content: center;
