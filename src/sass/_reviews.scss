@@ -86,17 +86,16 @@
   flex-direction: row;
 }
 .slider-list__item {
+  color: #d9d9d9;
   margin-right: 18px;
   &:last-child {
     margin-right: 0;
   }
 }
-.slider-list__link {
-  color: transparent;
-}
 .slider-list__icon {
   fill: #d9d9d9;
 }
+
 .slider-list__link:hover .slider-list__icon,
 .slider-list__link:focus .slider-list__icon {
   fill: #d41443;
