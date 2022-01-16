@@ -47,6 +47,9 @@ background: #E17992;
 z-index: 999;
 
 transform: translateX(100%);
+opacity: 0;
+
+
 
 & .is-open{
     transform: translateX(0%);  
