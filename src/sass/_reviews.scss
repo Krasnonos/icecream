@@ -26,11 +26,14 @@
 }
 
 .review__section__text {
+  //   border: 1px solid #e1e1e1;
+  text-decoration: solid underline #e1e1e1 1px;
+
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 255%;
+  line-height: 2.59;
   text-align: center;
   color: #000;
   background-image: url(../images/quotes-min.png);
