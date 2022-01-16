@@ -19,7 +19,7 @@
   line-height: 41px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #d41443;
+  color: $main-title-color;
 }
 .advantages-list__pretitle.icecream-1 {
   &::before {
@@ -60,6 +60,6 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 20px;
-  color: #000000;
+  color: $second-text-color;
   max-width: 230px;
 }
