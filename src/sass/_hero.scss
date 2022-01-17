@@ -35,13 +35,27 @@
   }
   }
 .hero__passion {
-  font-family: Titan One;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 96.5%;
-  text-transform: uppercase;
-  color: #d41443;
-}
+      @media screen and (max-width: 240px) { 
+        font-size: 34px;
+        line-height: 31px;
+      }
+      font-weight: 400;
+      z-index: 10;
+      color: 
+      #D41443;
+      @media screen and (min-width: 241px) { 
+        font-size: 46.32px;
+        line-height: 46px;
+      }
+      @media screen and (min-width: 768px), (max-width: 240px)   { 
+        font-size: 34px;
+    line-height: 31px;
+      }
+      @media screen and (min-width: 1280px) { 
+        font-size: 58px;
+        line-height: 52px;
+      }
+    }
 
 .hero__list {
   display: flex;
@@ -80,11 +94,17 @@
 .hero__link--product {
   color: #ffffff;
   background-color: #d41443;
+  &:hover, &:focus {
+    background-color: #C7133E;
+  }
 }
 
 .hero__link--made {
   color: #d41443;
   background-color: #ffffff;
+  &:hover, &:focus {
+    background-color: #ECEBEB;
+  }
 }
 // HERO
 // // .abc {
