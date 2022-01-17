@@ -19,7 +19,7 @@
 .modal__info {
   width: 528px;
   min-height: 581px;
-  background-color: #fff5f6;
+  background-color: $second-bg-color;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66), url(../images/modal-cow.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@
   transform: scale(1) translate(-50%, -50%);
   transition: transform 400ms;
   padding: 40px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     width: 450px;
     height: 609px;
   }
@@ -41,34 +41,11 @@
   width: 200px;
   height: 50px;
   border-radius: 22px;
-  background-color: #e17992;
-  color: #ffffff;
+  background-color: $main-bg-color;
+  color: $second-title-color;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  border: none;
-}
-
-.modal__close {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
-  border: 1px solid #e17992;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal__close-icon {
-  transition: fill 250ms linear;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: #850000;
-  &:hover {
-    fill: #d41443;
-  }
   border: none;
 }
 
@@ -91,7 +68,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 0px;
   margin-top: 3px;
-  color: $white-bg-color;
+  color: $main-text-color;
 }
 
 .modal__product-text {
@@ -102,25 +79,10 @@
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: $white-bg-color;
+  color: $main-text-color;
   margin-top: 50px;
   text-align: center;
 }
-/*
-.modal__contacts {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 186%;
-  letter-spacing: 0.02em;
-  color: #000000;
-  margin-left: 160px;
-}
-.modal__contacts-number {
-  color: #d41443;
-}
-*/
 
 .modal__footer-text {
   font-family: DM Sans;
@@ -129,7 +91,7 @@
   font-size: 14px;
   line-height: 186%;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: $second-text-color;
   text-align: center;
   margin-top: 70px;
 }
@@ -155,7 +117,7 @@
 .modal {
   width: 528px;
   min-height: 581px;
-  background-color: #fff5f6;
+  background-color: $modal-bg-color;
   border-radius: 5px;
   position: absolute;
   top: 50%;
@@ -173,8 +135,8 @@
   width: 200px;
   height: 50px;
   border-radius: 22px;
-  background-color: #e17992;
-  color: #ffffff;
+  background-color: $hover-text-color;
+  color: $second-title-color;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -188,7 +150,7 @@
   width: 30px;
   height: 30px;
   background-color: transparent;
-  border: 1px solid #e17992;
+  border: 1px solid $second-bg-color;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,9 +159,9 @@
 .modal__close-icon {
   transition: fill 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: #850000;
+  color: $second-btn-color;
   &:hover {
-    fill: #e17992;
+    fill: $main-btn-color;
   }
   border: none;
 }
@@ -222,7 +184,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 12px;
   margin-top: 3px;
-  color: #e17992;
+  color: $hover-text-color;
 }
 
 .modal__form-input {
@@ -237,10 +199,10 @@
   transition: border-color 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:focus {
-    border-color: #e17992;
+    border-color: $hover-text-color;
   }
   &:focus + .modal-input-icon {
-    fill: #e17992;
+    fill: $hover-text-color;
   }
 }
 
@@ -250,7 +212,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: #e17992;
+  color: $hover-text-color;
   display: block;
   margin-bottom: 4px;
 }
@@ -281,7 +243,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
   &:focus {
-    border-color: #e17992;
+    border-color: $hover-text-color;
   }
 }
 
@@ -309,7 +271,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #e17992;
+  color: $hover-text-color;
   position: relative;
   display: flex;
   align-items: center;
@@ -318,9 +280,9 @@
     width: 38px;
     height: 22px;
     border-radius: 50px;
-    border: 1px solid #e17992;
+    border: 1px solid $second-title-color;
     margin-right: 4px;
-    background-color: #e17992;
+    background-color: $second-title-color;
     transition: background-color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -331,7 +293,7 @@
     top: 2px;
     width: 20px;
     height: 20px;
-    background-color: #e17992;
+    background-color: $hover-text-color;
     border-radius: 50%;
     transition: transform 250ms linear, background-color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -342,15 +304,15 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #e17992;
+    color: $hover-text-color;
     &::before {
       content: '';
       width: 25px;
       height: 8px;
       border-radius: 50px;
-      border: 1px solid #e17992;
+      border: 1px solid $hover-text-color;
       margin-right: 4px;
-      background-color: #ffffff;
+      background-color: $second-btn-color;
       transition: background-color 250ms linear;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -362,7 +324,7 @@
       top: 3px;
       width: 8px;
       height: 8px;
-      background-color: #ffffff;
+      background-color: $hover-text-color;
       border-radius: 50%;
       transition: transform 250ms linear, background-color 250ms linear;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -372,19 +334,19 @@
 
 .modal__checkbox:checked + .modal__checkbox-text::after {
   transform: translateX(17px);
-  background-color: #e17992;
+  background-color: $hover-text-color;
 }
 
 .modal__checkbox:checked + .modal__checkbox-text::before {
-  background-color: #e17992;
+  background-color: $hover-text-color;
 }
 .modal__checkbox {
-  color: #e17992;
-  background-color: #e17992;
+  color: $main-title-color;
+  background-color: $hover-text-color;
 }
 
 .modal__link {
-  color: #e17992;
+  color: $hover-text-color;
   margin-left: 5px;
   @media screen and (min-width: 480px) {
     font-style: normal;
