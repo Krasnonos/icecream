@@ -34,7 +34,7 @@ padding-top: 6px;
 
 
 .mobile-menu{
-    @media screen and(min-width:480px){
+  
     position: fixed;
     left: 0;
     top: 0;
@@ -54,7 +54,7 @@ transform: translateX(100%);
    
 }
 }
-}
+
 
 .mobile-menu__button-closed{
     @media screen and(min-width:480px){
