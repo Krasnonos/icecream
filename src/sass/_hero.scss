@@ -1,446 +1,523 @@
-// HERO
-// .abc {
-//   @media screen and (min-width: 768px) { 
-//     position:relative;
-//   }
-// }
-// .abc {
-//   position: relative;
-//   background-color: #FFB8CA;
-// overflow: hidden;
-// }
 .background-wrap {
   margin: 0 auto;
 }
 .background {
   overflow: hidden;
   background-color: #ffb8ca;
-  background-image: url(../images/icecream-mob-1x-min.png), url(../images/Ellipse\ 3.png);
+  background-image: url(../images/icecream-mob-1x-min.png), url(../images/ellipse_3.png);
   background-repeat: no-repeat;
   background-position: left calc(50% + 50px) bottom 0px, left calc(50% + 50px) bottom 75px;
 }
+.header {
+  padding-top: 6px;
+}
+
 .hero {
-  position: relative;
-    background-color: #FFB8CA;
-    @media screen and (max-width: 768px) { 
-      overflow: hidden;
-    }
- 
-//  display: block;
-    @media screen and (max-width: 768px) { 
-      // height: 502px;
-      height: 438px;
-      // padding-top: 193px;
-      // padding-bottom: 160px;
-      padding-top: 129px;
-      padding-bottom: 160px;
-    }
-    @media screen and (min-width: 768px) { 
-      // height: 339px;
-      height: 312px;
-    }
-    @media screen and (min-width: 1280px) { 
-    }
+  padding-top: 137px;
+  padding-bottom: 160px;
+}
+.container {
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 320px) {
+    width: 320px;
   }
-  // MAIN-BLOCK
-  .hero__main-block { 
-  position: relative; 
-  // left: 20px;
-  // padding-right: 82px;
-  z-index: 3;
-  @media screen and (min-width: 768px) { 
-    position: absolute;
-    left: 34px;
-    // top:102px;
-    top:15px;
-  }
-  }
-  .hero__title {
+}
+.hero__tittle {
   font-family: Titan One;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 26px;
   line-height: 30px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  z-index: 10;
-  @media screen and (min-width: 768px) { 
-    font-size: 22px;
-    line-height: 25px;
-  }
-  @media screen and (min-width: 1280px) { 
-    font-size: 38px;
-    line-height: 44px;
-  }
-  }
-  .hero__word {
-    // @media screen and (max-width: 240px) { 
-    //   font-size: 34px;
-    //   line-height: 31px;
-    // }
-    font-weight: 400;
-    z-index: 10;
-    color: 
-    #D41443;
-    @media screen and (min-width: 241px) { 
-      font-size: 46.32px;
-      line-height: 46px;
-    }
-    @media screen and (min-width: 768px), (max-width: 240px)   { 
-      font-size: 34px;
-  line-height: 31px;
-    }
-    @media screen and (min-width: 1280px) { 
-      font-size: 58px;
-      line-height: 52px;
-    }
-  }
-  .hero__links {
-     display: flex;
-    margin-top: 19px;
-    @media screen and (min-width: 768px) { 
-      margin-top: 20px;
-    }
-    @media screen and (min-width: 1280px) { 
-      margin-top: 25px;
-    }
-  }
-  .hero__links-item:first-child {
-    margin-right: 8px;
-    @media screen and (min-width: 1280px) { 
-      margin-right: 15px;
-    }
-  }
-  .hero__link-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 10.42px;
-    border-radius: 20px;
-    @media screen and (min-width: 1280px) { 
-      font-size: 14px;
-      line-height: 18px;
-    }
-  }
-  .hero__link-text--pro {
-    width: 62.4px;
-    height: 24px;
-    color: #FFFFFF;
-    background-color: #D41443;
-    @media screen and (min-width: 1280px) { 
-      width: 104px;
-    height: 40px;
-    }
-  }
-  .hero__link-text--pro:hover,
-  .hero__link-text--pro:focus {
-    background: #C7133E;
-  }
-  .hero__link-text--how {
-    width: 82.8px;
-    height: 24px;
-    color: #D41443;
-    background-color: #FFFFFF;
-    @media screen and (min-width: 1280px) { 
-      width: 138px;
-    height: 40px;
-    }
-  }
-  .hero__link-text--how:hover,
-  .hero__link-text--how:focus {
-    background: #ECEBEB;
-  }
-  .hero__link {
-    text-decoration: none;
-  }
-  // SECOND-BLOCK
-    .hero__second-block {
-        @media screen and (max-width: 767px) {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-          }
-    }
-    .hero__milk-picture {
-      @media screen and (min-width: 768px) { 
-        position: absolute;
-        left: 34px;
-        top: 245px;
-      }
-      @media screen and (min-width: 1280px) { 
-        // left: 77px;
-        // top: 429px;
-      }
-    }
-    .hero__main-text {
-    @media screen and (min-width: 768px) { 
-      position: absolute;
-      left: 154px;
-      top: 292px;
-    }
-    @media screen and (min-width: 1280px) { 
-    }
-  // top: 292px;
-    }
-  .hero__text {
-    @media screen and (min-width: 768px) { 
-      width: 114px;
-      font-weight: 400;
-      font-size: 8px;
-      line-height: 12px;
-      color: #FFFFFF;
-    }
-    @media screen and (min-width: 1280px) { 
-      width: 200px;
-      font-size: 14px;
-      line-height: 140%;
-    }
-  }
-  // .hero__button {
-  //     background-image: url(../images/arrow-right3-icon-1-min.png);
-  //     display: inline-block;
-  //     width: 18px;
-  //     height: 18px;
-  //     cursor: pointer;
-  // }
-// .hero__icon {
-//   width: 26px;
-//   height: 26px;
+  color: #ffffff;
+}
+
+.hero__passion {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 96.5%;
+  /* or 46px */
+  text-transform: uppercase;
+
+  color: #d41443;
+}
+
+.hero__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 19px;
+  margin-bottom: 0px;
+}
+
+.hero__item {
+  width: auto;
+  height: 24px;
+}
+
+.hero__item + .hero__item {
+  margin-left: 15px;
+}
+
+.hero__link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 10px;
+  border-radius: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+}
+
+.hero__link--product {
+  color: #ffffff;
+  background-color: #d41443;
+}
+
+.hero__link--made {
+  color: #d41443;
+  background-color: #ffffff;
+}
+// HERO
+// // .abc {
+// //   @media screen and (min-width: 768px) { 
+// //     position:relative;
+// //   }
+// // }
+// // .abc {
+// //   position: relative;
+// //   background-color: #FFB8CA;
+// // overflow: hidden;
+// // }
+// .background-wrap {
+//   margin: 0 auto;
 // }
-  // THIRD=BLOCK
-  // .hero__third-block {
-  //   height: 502px;
-  //   overflow: hidden;
-  //   position: relative;
-  // }
-  .hero__background-circle {
-    position: absolute;
-    background-color: #FFA5BA;
-      border-radius: 50%;
-      z-index: 1;
-      // overflow: hidden;
-      // display: block;
-      @media screen and (max-width: 319px) {
-        left:36px;
-        top: 23px;
-          width: 346px;
-        height: 344px;
-        }
-      @media screen and (min-width: 320px) {
-           // left:36px;
-        // top: 83px;
-        left:36px;
-        top: 23px;
-  width: 346px;
-  height: 344px;
-  }
- @media screen and (min-width: 768px) {
-  width: 324px;
-  height: 322px;
-  left: 307px;
-  // top: 31px;
-  top: -56px;
-  }
-  @media screen and (min-width: 1280px) {        
-  width: 538px;
-  height: 538px;
-  }
-   }
-  .hero__ice-cream-picture {
-  position: absolute;
-  z-index: 2;
-  @media screen and (max-width: 319px) {
-    top: 28px;
-    left: 117px;
-    }
-  @media screen and (min-width: 320px) {
-    // top: 92px;
-    top: 28px;
-    left: 117px;
-}
-  @media screen and (min-width: 768px) {
-    // top: 63px;
-    top: -24px;
-    left: 378px;
-    }
-  @media screen and (min-width: 1280px) {        
-    }
-   }
-  //    FOURTH-BLOCK
-  .hero__fourth-block {
-        @media screen and (max-width: 767px) {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-          }
-          // @media screen and (min-width: 768px) {
-          // }
-    // display: flex;
-    // flex-direction: column; 
-    @media screen and (min-width: 768px) {
-      position: absolute;
-    top: 94px;
-  left: 691px;
-    }
-    @media screen and (min-width: 1280px) {
-    top: 156px;
-  // left: 1111px;
-    }
-  }
-  @media screen and (min-width: 768px) {
-    .hero__facilities-item:first-child {
-      position: relative;
-      width: 43px;
-      height: 44px;
-    margin-bottom: 13px;
-    margin-left: 8px
-    }
-  }
-  @media screen and (min-width: 1280px) {
-    .hero__facilities-item:first-child {
-      width: 72px;
-      height: 77px;
-      margin-left: 20px;
-    }
-    }
+// .background {
+//   overflow: hidden;
+//   background-color: #ffb8ca;
+//   background-image: url(../images/icecream-mob-1x-min.png), url(../images/Ellipse\ 3.png);
+//   background-repeat: no-repeat;
+//   background-position: left calc(50% + 50px) bottom 0px, left calc(50% + 50px) bottom 75px;
+// }
+// .hero {
+//   position: relative;
+//     background-color: #FFB8CA;
+//     @media screen and (max-width: 768px) { 
+//       overflow: hidden;
+//     }
+ 
+// //  display: block;
+//     @media screen and (max-width: 768px) { 
+//       // height: 502px;
+//       height: 438px;
+//       // padding-top: 193px;
+//       // padding-bottom: 160px;
+//       padding-top: 129px;
+//       padding-bottom: 160px;
+//     }
+//     @media screen and (min-width: 768px) { 
+//       // height: 339px;
+//       height: 312px;
+//     }
+//     @media screen and (min-width: 1280px) { 
+//     }
+//   }
+//   // MAIN-BLOCK
+//   .hero__main-block { 
+//   position: relative; 
+//   // left: 20px;
+//   // padding-right: 82px;
+//   z-index: 3;
+//   @media screen and (min-width: 768px) { 
+//     position: absolute;
+//     left: 34px;
+//     // top:102px;
+//     top:15px;
+//   }
+//   }
+//   .hero__title {
+//   font-family: Titan One;
+//   font-weight: 400;
+//   font-size: 26px;
+//   line-height: 30px;
+//   letter-spacing: 0.04em;
+//   text-transform: uppercase;
+//   color: #FFFFFF;
+//   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//   z-index: 10;
+//   @media screen and (min-width: 768px) { 
+//     font-size: 22px;
+//     line-height: 25px;
+//   }
+//   @media screen and (min-width: 1280px) { 
+//     font-size: 38px;
+//     line-height: 44px;
+//   }
+//   }
+//   .hero__word {
+//     // @media screen and (max-width: 240px) { 
+//     //   font-size: 34px;
+//     //   line-height: 31px;
+//     // }
+//     font-weight: 400;
+//     z-index: 10;
+//     color: 
+//     #D41443;
+//     @media screen and (min-width: 241px) { 
+//       font-size: 46.32px;
+//       line-height: 46px;
+//     }
+//     @media screen and (min-width: 768px), (max-width: 240px)   { 
+//       font-size: 34px;
+//   line-height: 31px;
+//     }
+//     @media screen and (min-width: 1280px) { 
+//       font-size: 58px;
+//       line-height: 52px;
+//     }
+//   }
+//   .hero__links {
+//      display: flex;
+//     margin-top: 19px;
+//     @media screen and (min-width: 768px) { 
+//       margin-top: 20px;
+//     }
+//     @media screen and (min-width: 1280px) { 
+//       margin-top: 25px;
+//     }
+//   }
+//   .hero__links-item:first-child {
+//     margin-right: 8px;
+//     @media screen and (min-width: 1280px) { 
+//       margin-right: 15px;
+//     }
+//   }
+//   .hero__link-text {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-weight: 400;
+//     font-size: 8px;
+//     line-height: 10.42px;
+//     border-radius: 20px;
+//     @media screen and (min-width: 1280px) { 
+//       font-size: 14px;
+//       line-height: 18px;
+//     }
+//   }
+//   .hero__link-text--pro {
+//     width: 62.4px;
+//     height: 24px;
+//     color: #FFFFFF;
+//     background-color: #D41443;
+//     @media screen and (min-width: 1280px) { 
+//       width: 104px;
+//     height: 40px;
+//     }
+//   }
+//   .hero__link-text--pro:hover,
+//   .hero__link-text--pro:focus {
+//     background: #C7133E;
+//   }
+//   .hero__link-text--how {
+//     width: 82.8px;
+//     height: 24px;
+//     color: #D41443;
+//     background-color: #FFFFFF;
+//     @media screen and (min-width: 1280px) { 
+//       width: 138px;
+//     height: 40px;
+//     }
+//   }
+//   .hero__link-text--how:hover,
+//   .hero__link-text--how:focus {
+//     background: #ECEBEB;
+//   }
+//   .hero__link {
+//     text-decoration: none;
+//   }
+//   // SECOND-BLOCK
+//     .hero__second-block {
+//         @media screen and (max-width: 767px) {
+//             position: absolute;
+//             width: 1px;
+//             height: 1px;
+//             margin: -1px;
+//             border: 0;
+//             padding: 0;
+//             white-space: nowrap;
+//             clip-path: inset(100%);
+//             clip: rect(0 0 0 0);
+//             overflow: hidden;
+//           }
+//     }
+//     .hero__milk-picture {
+//       @media screen and (min-width: 768px) { 
+//         position: absolute;
+//         left: 34px;
+//         top: 245px;
+//       }
+//       @media screen and (min-width: 1280px) { 
+//         // left: 77px;
+//         // top: 429px;
+//       }
+//     }
+//     .hero__main-text {
+//     @media screen and (min-width: 768px) { 
+//       position: absolute;
+//       left: 154px;
+//       top: 292px;
+//     }
+//     @media screen and (min-width: 1280px) { 
+//     }
+//   // top: 292px;
+//     }
+//   .hero__text {
+//     @media screen and (min-width: 768px) { 
+//       width: 114px;
+//       font-weight: 400;
+//       font-size: 8px;
+//       line-height: 12px;
+//       color: #FFFFFF;
+//     }
+//     @media screen and (min-width: 1280px) { 
+//       width: 200px;
+//       font-size: 14px;
+//       line-height: 140%;
+//     }
+//   }
+//   .hero__background-circle {
+//     position: absolute;
+//     background-color: #FFA5BA;
+//       border-radius: 50%;
+//       z-index: 1;
+//       // overflow: hidden;
+//       // display: block;
+//       @media screen and (max-width: 319px) {
+//         left:36px;
+//         top: 23px;
+//           width: 346px;
+//         height: 344px;
+//         }
+//       @media screen and (min-width: 320px) {
+//            // left:36px;
+//         // top: 83px;
+//         left:36px;
+//         top: 23px;
+//   width: 346px;
+//   height: 344px;
+//   }
+//  @media screen and (min-width: 768px) {
+//   width: 324px;
+//   height: 322px;
+//   left: 307px;
+//   // top: 31px;
+//   top: -56px;
+//   }
+//   @media screen and (min-width: 1280px) {        
+//   width: 538px;
+//   height: 538px;
+//   }
+//    }
+//   .hero__ice-cream-picture {
+//   position: absolute;
+//   z-index: 2;
+//   @media screen and (max-width: 319px) {
+//     top: 28px;
+//     left: 117px;
+//     }
+//   @media screen and (min-width: 320px) {
+//     // top: 92px;
+//     top: 28px;
+//     left: 117px;
+// }
+//   @media screen and (min-width: 768px) {
+//     // top: 63px;
+//     top: -24px;
+//     left: 378px;
+//     }
+//   @media screen and (min-width: 1280px) {        
+//     }
+//    }
+//   //    FOURTH-BLOCK
+//   .hero__fourth-block {
+//         @media screen and (max-width: 767px) {
+//             position: absolute;
+//             width: 1px;
+//             height: 1px;
+//             margin: -1px;
+//             border: 0;
+//             padding: 0;
+//             white-space: nowrap;
+//             clip-path: inset(100%);
+//             clip: rect(0 0 0 0);
+//             overflow: hidden;
+//           }
+//           // @media screen and (min-width: 768px) {
+//           // }
+//     // display: flex;
+//     // flex-direction: column; 
+//     @media screen and (min-width: 768px) {
+//       position: absolute;
+//     top: 94px;
+//   left: 691px;
+//     }
+//     @media screen and (min-width: 1280px) {
+//     top: 156px;
+//   // left: 1111px;
+//     }
+//   }
+//   @media screen and (min-width: 768px) {
+//     .hero__facilities-item:first-child {
+//       position: relative;
+//       width: 43px;
+//       height: 44px;
+//     margin-bottom: 13px;
+//     margin-left: 8px
+//     }
+//   }
+//   @media screen and (min-width: 1280px) {
+//     .hero__facilities-item:first-child {
+//       width: 72px;
+//       height: 77px;
+//       margin-left: 20px;
+//     }
+//     }
 
-@media screen and (min-width: 768px) {
-  .hero__facilities-item:last-child {
-    position: relative;
-    width: 51px;
-    height: 43px;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   .hero__facilities-item:last-child {
+//     position: relative;
+//     width: 51px;
+//     height: 43px;
+//   }
+// }
 
-  @media screen and (min-width: 1280px) {
-    .hero__facilities-item:last-child {
-      width: 92px;
-      height: 76px;
-    }
-  }
-  @media screen and (min-width: 768px) {
-     .hero__facilities {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    bottom: 0px;
-    z-index: 2;
-  }
-  }
-  @media screen and (min-width: 768px) {
-    .hero__facilities--cafes {
-      width: 33px;
-    }
- }
- @media screen and (min-width: 1280px) {
-  .hero__facilities--cafes {
-    width: 54px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .hero__facilities--trucks {
-    width: 43px;
-    text-align: right;
-  }
-}
-@media screen and (min-width: 1280px) {
-.hero__facilities--trucks {
-  width: 74px;
-}
-}
-  @media screen and (min-width: 768px) {
-    .hero__quantity {
-      font-family: Titan One;
-      font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #D41443; 
-  }
-  }
-  @media screen and (min-width: 1280px) {
-    .hero__quantity {
-      font-size: 46px;
-    line-height: 53px;
-  }
-  }
-  @media screen and (min-width: 768px) {
-    .hero__facility {
-      font-family: DM Sans;
-      font-weight: 400;
-      font-size: 8px;
-      line-height: 10px;
-      text-align: right; 
-      color: #FFFFFF;
-  }
-  }
-  @media screen and (min-width: 1280px) {
-    .hero__facility {
-      font-size: 14px;
-      line-height: 18px;
-  }
-  }
-  @media screen and (min-width: 768px) {
-    .hero__facilities-circle {
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background-color: #FFFFFF;
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 1;
-  }
-}
-  @media screen and (min-width: 1280px) {
-    .hero__facilities-circle {
-      width: 30px;
-      height: 30px;
-  }
-}
-  // FIFTH-BLOCK
-  .hero__so-tasty-picture {
-    @media screen and (max-width: 767px) {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      white-space: nowrap;
-      clip-path: inset(100%);
-      clip: rect(0 0 0 0);
-      overflow: hidden;
-    }
-    @media screen and (min-width: 768px) {
-      position: absolute;
-     top:266px;
-     right: 34px;
-     z-index: 3;
-      }
-  }
-  // .hero__fifth-block {
-  //   position: absolute;
-  //   z-index: 200;
-  //   background-image: url(../images/so-tasty-tab-1x-min.png);
-  //   width: 168px;
-  //   height: 133px;
-  // }
+//   @media screen and (min-width: 1280px) {
+//     .hero__facilities-item:last-child {
+//       width: 92px;
+//       height: 76px;
+//     }
+//   }
+//   @media screen and (min-width: 768px) {
+//      .hero__facilities {
+//     position: absolute;
+//     display: flex;
+//     flex-direction: column;
+//     bottom: 0px;
+//     z-index: 2;
+//   }
+//   }
+//   @media screen and (min-width: 768px) {
+//     .hero__facilities--cafes {
+//       width: 33px;
+//     }
+//  }
+//  @media screen and (min-width: 1280px) {
+//   .hero__facilities--cafes {
+//     width: 54px;
+//   }
+// }
+// @media screen and (min-width: 768px) {
+//   .hero__facilities--trucks {
+//     width: 43px;
+//     text-align: right;
+//   }
+// }
+// @media screen and (min-width: 1280px) {
+// .hero__facilities--trucks {
+//   width: 74px;
+// }
+// }
+//   @media screen and (min-width: 768px) {
+//     .hero__quantity {
+//       font-family: Titan One;
+//       font-weight: 400;
+//     font-size: 28px;
+//     line-height: 32px;
+//     letter-spacing: 0.04em;
+//     text-transform: uppercase;
+//     color: #D41443; 
+//   }
+//   }
+//   @media screen and (min-width: 1280px) {
+//     .hero__quantity {
+//       font-size: 46px;
+//     line-height: 53px;
+//   }
+//   }
+//   @media screen and (min-width: 768px) {
+//     .hero__facility {
+//       font-family: DM Sans;
+//       font-weight: 400;
+//       font-size: 8px;
+//       line-height: 10px;
+//       text-align: right; 
+//       color: #FFFFFF;
+//   }
+//   }
+//   @media screen and (min-width: 1280px) {
+//     .hero__facility {
+//       font-size: 14px;
+//       line-height: 18px;
+//   }
+//   }
+//   @media screen and (min-width: 768px) {
+//     .hero__facilities-circle {
+//       width: 16px;
+//       height: 16px;
+//       border-radius: 50%;
+//       background-color: #FFFFFF;
+//       position: absolute;
+//       top: 0;
+//       right: 0;
+//       z-index: 1;
+//   }
+// }
+//   @media screen and (min-width: 1280px) {
+//     .hero__facilities-circle {
+//       width: 30px;
+//       height: 30px;
+//   }
+// }
+//   // FIFTH-BLOCK
+//   .hero__so-tasty-picture {
+//     @media screen and (max-width: 767px) {
+//       position: absolute;
+//       width: 1px;
+//       height: 1px;
+//       margin: -1px;
+//       border: 0;
+//       padding: 0;
+//       white-space: nowrap;
+//       clip-path: inset(100%);
+//       clip: rect(0 0 0 0);
+//       overflow: hidden;
+//     }
+//     @media screen and (min-width: 768px) {
+//       position: absolute;
+//      top:266px;
+//      right: 34px;
+//      z-index: 3;
+//       }
+//   }
+//   // .hero__fifth-block {
+//   //   position: absolute;
+//   //   z-index: 200;
+//   //   background-image: url(../images/so-tasty-tab-1x-min.png);
+//   //   width: 168px;
+//   //   height: 133px;
+//   // }
