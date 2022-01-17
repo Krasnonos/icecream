@@ -86,6 +86,10 @@
   background-color: $second-btn-color;
   padding: 17px 19px;
   margin-bottom: 0;
+  &:hover,
+  &:focus {
+    background-color: $hover-bg-color;
+  }
 }
 .about__cow {
   background-origin: content-box;
