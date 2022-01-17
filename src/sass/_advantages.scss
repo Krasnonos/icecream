@@ -4,6 +4,9 @@
   @media screen and (min-width: 767px) {
     padding-top: 66px;
   }
+  @media screen and (min-width: 1279px) {
+    padding-top: 39px;
+  }
 }
 .advantages__title {
 }
@@ -40,6 +43,11 @@
     font-size: 48px;
     line-height: calc(55 / 48);
   }
+  @media screen and (min-width: 1279px) {
+    margin-bottom: 15px;
+    font-size: 58px;
+    line-height: calc(66 / 58);
+  }
 }
 .advantages-list__pretitle.icecream-1 {
   &::before {
@@ -52,6 +60,9 @@
     margin-bottom: 16px;
     @media screen and (min-width: 767px) {
       margin-bottom: 36px;
+    }
+    @media screen and (min-width: 1279px) {
+      margin-bottom: 40px;
     }
   }
 }
@@ -67,6 +78,9 @@
     @media screen and (min-width: 767px) {
       margin-bottom: 36px;
     }
+    @media screen and (min-width: 1279px) {
+      margin-bottom: 40px;
+    }
   }
 }
 .advantages-list__pretitle.icecream-3 {
@@ -81,6 +95,9 @@
     @media screen and (min-width: 767px) {
       margin-bottom: 36px;
     }
+    @media screen and (min-width: 1279px) {
+      margin-bottom: 40px;
+    }
   }
 }
 .advantages-list__text {
@@ -94,5 +111,11 @@
     width: 180px;
     line-height: calc(21 / 12);
     font-size: 16px;
+  }
+  @media screen and (min-width: 1279px) {
+    margin-bottom: 40px;
+    line-height: calc(28 / 16);
+    letter-spacing: 0.02em;
+    width: 330px;
   }
 }
