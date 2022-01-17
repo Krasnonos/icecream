@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   transition: opacity 400ms, visibility 400ms;
+  z-index: 50;
 }
 
 .backdrop.is-hidden {
@@ -106,6 +107,7 @@
   top: 0;
   left: 0;
   transition: opacity 400ms, visibility 400ms;
+  z-index: 50;
 }
 
 .backdrop.is-hidden {
@@ -117,7 +119,7 @@
 .modal {
   width: 528px;
   min-height: 581px;
-  background-color: $social-icon-bg-color;
+  background-color: $second-bg-color;
   border-radius: 5px;
   position: absolute;
   top: 50%;
