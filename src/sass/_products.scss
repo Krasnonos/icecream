@@ -230,7 +230,6 @@
   overflow: hidden;
 }
 .overlay--ice-cream {
-  overflow: hidden;
   margin-top: 5px;
   border-radius: 24px;
   position: absolute;
@@ -267,10 +266,11 @@
   transform: translateY(0);
   opacity: 0;
   transition: 1s;
+  // @include transition(transform, null, null, var(--duration), var(--function));
   .card__link--ice-coffee:hover &,
   .card__link--ice-coffee:focus & {
     transform: translateY(-101%);
-    transition: 1s;
+    transition: 1s; /*Скорость перехода состояния элемента*/
     opacity: 1;
   }
 }
@@ -293,11 +293,11 @@
   transform: translateY(0);
   opacity: 0;
   transition: 1s;
-
+  // @include transition(transform, null, null, var(--duration), var(--function));
   .card__link--milkshakes:hover &,
   .card__link--milkshakes:focus & {
     transform: translateY(-101%);
-    transition: 1s;
+    transition: 1s; /*Скорость перехода состояния элемента*/
     opacity: 1;
   }
 }
