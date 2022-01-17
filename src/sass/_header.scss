@@ -1,6 +1,6 @@
 .heder{
+    padding-top: 6px;
     @media screen and(min-width:480px) {
-padding-top: 6px;
     background: $main-current-color;
 //    height: 64px;
 
@@ -15,31 +15,26 @@ padding-top: 6px;
         height: 50px;
         padding: 0px;
         // margin-left: 20px;
-        margin-top: 6px;
-        z-index: 2;
+               z-index: 2;
         }
 }
 
 
-.menu__button-open{
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    transform: translate(-15px,20px);
-    border: none;
-    color: $main-current-color;
-    padding: 0;
-    background-color:$main-current-color ;
-    
-}
 
-// .mob-menu__svg{
-//     color: aqua;
-// }
+.flex {
+    display: flex;
+  }
+  .menu__button-open {
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: 0px;
+    border: none;
+  }
+
+
 
 .mobile-menu{
-    @media screen and(min-width:480px){
+  
     position: fixed;
     left: 0;
     top: 0;
@@ -59,7 +54,7 @@ transform: translateX(100%);
    
 }
 }
-}
+
 
 .mobile-menu__button-closed{
     @media screen and(min-width:480px){
