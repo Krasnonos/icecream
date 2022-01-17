@@ -1,6 +1,9 @@
 .advantages {
   padding-top: 39px;
   background-color: #fff5f6;
+  @media screen and (min-width: 767px) {
+    padding-top: 66px;
+  }
 }
 .advantages__title {
 }
