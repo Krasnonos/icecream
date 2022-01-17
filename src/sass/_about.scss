@@ -120,6 +120,9 @@
   }
 }
 .about__text-block {
+  @media screen and (max-width: 767px) {
+    margin: 0 auto;
+  }
   max-width: 220px;
   @media screen and (min-width: 768px) {
     max-width: 340px;
