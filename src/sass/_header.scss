@@ -22,6 +22,7 @@ padding-top: 6px;
 
 
 .menu__button-open{
+
     position: absolute;
     content: "";
     top: 0;
@@ -32,6 +33,10 @@ padding-top: 6px;
     padding: 0;
     background-color:$main-current-color ;
     
+}
+
+.position{
+    position: relative;
 }
 
 // .mob-menu__svg{
