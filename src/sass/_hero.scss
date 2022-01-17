@@ -9,10 +9,23 @@
 //   background-color: #FFB8CA;
 // overflow: hidden;
 // }
+.background-wrap {
+  margin: 0 auto;
+}
+.background {
+  overflow: hidden;
+  background-color: #ffb8ca;
+  background-image: url(../images/icecream-mob-1x-min.png), url(../images/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 50px) bottom 0px, left calc(50% + 50px) bottom 75px;
+}
 .hero {
   position: relative;
     background-color: #FFB8CA;
- overflow: hidden;
+    @media screen and (max-width: 768px) { 
+      overflow: hidden;
+    }
+ 
 //  display: block;
     @media screen and (max-width: 768px) { 
       // height: 502px;
@@ -24,7 +37,7 @@
     }
     @media screen and (min-width: 768px) { 
       // height: 339px;
-      height: 297px;
+      height: 312px;
     }
     @media screen and (min-width: 1280px) { 
     }
@@ -38,7 +51,8 @@
   @media screen and (min-width: 768px) { 
     position: absolute;
     left: 34px;
-    top:102px;
+    // top:102px;
+    top:15px;
   }
   }
   .hero__title {
@@ -234,8 +248,8 @@
   width: 324px;
   height: 322px;
   left: 307px;
-  top: 31px;
-  // top: -33px;
+  // top: 31px;
+  top: -56px;
   }
   @media screen and (min-width: 1280px) {        
   width: 538px;
@@ -255,7 +269,8 @@
     left: 117px;
 }
   @media screen and (min-width: 768px) {
-    top: 63px;
+    // top: 63px;
+    top: -24px;
     left: 378px;
     }
   @media screen and (min-width: 1280px) {        
