@@ -1,8 +1,21 @@
-// hero
+// HERO
+// .abc {
+//   @media screen and (min-width: 768px) { 
+//     position:relative;
+//   }
+// }
+// .abc {
+//   position: relative;
+//   background-color: #FFB8CA;
+// overflow: hidden;
+// }
 .hero {
+  position: relative;
     background-color: #FFB8CA;
-    // height: 502px;
+ overflow: hidden;
+//  display: block;
     @media screen and (max-width: 768px) { 
+      // height: 502px;
       height: 438px;
       // padding-top: 193px;
       // padding-bottom: 160px;
@@ -10,10 +23,13 @@
       padding-bottom: 160px;
     }
     @media screen and (min-width: 768px) { 
-      height: 339px;
+      // height: 339px;
+      height: 297px;
+    }
+    @media screen and (min-width: 1280px) { 
     }
   }
-  // main-block
+  // MAIN-BLOCK
   .hero__main-block { 
   position: relative; 
   // left: 20px;
@@ -39,16 +55,31 @@
     font-size: 22px;
     line-height: 25px;
   }
+  @media screen and (min-width: 1280px) { 
+    font-size: 38px;
+    line-height: 44px;
+  }
   }
   .hero__word {
+    // @media screen and (max-width: 240px) { 
+    //   font-size: 34px;
+    //   line-height: 31px;
+    // }
+    font-weight: 400;
+    z-index: 10;
     color: 
     #D41443;
-    font-size: 46.32px;
-    line-height: 46px;
-    z-index: 10;
-    @media screen and (min-width: 768px) { 
+    @media screen and (min-width: 241px) { 
+      font-size: 46.32px;
+      line-height: 46px;
+    }
+    @media screen and (min-width: 768px), (max-width: 240px)   { 
       font-size: 34px;
   line-height: 31px;
+    }
+    @media screen and (min-width: 1280px) { 
+      font-size: 58px;
+      line-height: 52px;
     }
   }
   .hero__links {
@@ -57,9 +88,15 @@
     @media screen and (min-width: 768px) { 
       margin-top: 20px;
     }
+    @media screen and (min-width: 1280px) { 
+      margin-top: 25px;
+    }
   }
   .hero__links-item:first-child {
     margin-right: 8px;
+    @media screen and (min-width: 1280px) { 
+      margin-right: 15px;
+    }
   }
   .hero__link-text {
     display: flex;
@@ -69,12 +106,20 @@
     font-size: 8px;
     line-height: 10.42px;
     border-radius: 20px;
+    @media screen and (min-width: 1280px) { 
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
   .hero__link-text--pro {
     width: 62.4px;
     height: 24px;
     color: #FFFFFF;
-    background: #D41443;
+    background-color: #D41443;
+    @media screen and (min-width: 1280px) { 
+      width: 104px;
+    height: 40px;
+    }
   }
   .hero__link-text--pro:hover,
   .hero__link-text--pro:focus {
@@ -85,6 +130,10 @@
     height: 24px;
     color: #D41443;
     background-color: #FFFFFF;
+    @media screen and (min-width: 1280px) { 
+      width: 138px;
+    height: 40px;
+    }
   }
   .hero__link-text--how:hover,
   .hero__link-text--how:focus {
@@ -93,7 +142,7 @@
   .hero__link {
     text-decoration: none;
   }
-  // second-block
+  // SECOND-BLOCK
     .hero__second-block {
         @media screen and (max-width: 767px) {
             position: absolute;
@@ -109,64 +158,110 @@
           }
     }
     .hero__milk-picture {
-  position: absolute;
-  left: 34px;
-  top: 245px;
+      @media screen and (min-width: 768px) { 
+        position: absolute;
+        left: 34px;
+        top: 245px;
+      }
+      @media screen and (min-width: 1280px) { 
+        // left: 77px;
+        // top: 429px;
+      }
     }
     .hero__main-text {
-    // display: flex;
-    // flex-direction: column;
-  position: absolute;
-  left: 154px;
-  top: 292px;
+    @media screen and (min-width: 768px) { 
+      position: absolute;
+      left: 154px;
+      top: 292px;
+    }
+    @media screen and (min-width: 1280px) { 
+    }
   // top: 292px;
     }
   .hero__text {
-    width: 114px;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 12px;
-    color: #FFFFFF;
+    @media screen and (min-width: 768px) { 
+      width: 114px;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 12px;
+      color: #FFFFFF;
+    }
+    @media screen and (min-width: 1280px) { 
+      width: 200px;
+      font-size: 14px;
+      line-height: 140%;
+    }
   }
   // .hero__button {
-  //   background-image: url();
+  //     background-image: url(../images/arrow-right3-icon-1-min.png);
+  //     display: inline-block;
+  //     width: 18px;
+  //     height: 18px;
+  //     cursor: pointer;
   // }
-  // third-block
+// .hero__icon {
+//   width: 26px;
+//   height: 26px;
+// }
+  // THIRD=BLOCK
+  // .hero__third-block {
+  //   height: 502px;
+  //   overflow: hidden;
+  //   position: relative;
+  // }
   .hero__background-circle {
     position: absolute;
-    top: 80px;
     background-color: #FFA5BA;
       border-radius: 50%;
-      left:36px;
       z-index: 1;
+      // overflow: hidden;
+      // display: block;
+      @media screen and (max-width: 319px) {
+        left:36px;
+        top: 23px;
+          width: 346px;
+        height: 344px;
+        }
       @media screen and (min-width: 320px) {
+           // left:36px;
+        // top: 83px;
+        left:36px;
+        top: 23px;
   width: 346px;
   height: 344px;
   }
-            @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
   width: 324px;
   height: 322px;
   left: 307px;
   top: 31px;
+  // top: -33px;
   }
-                  @media screen and (min-width: 1280px) {        
+  @media screen and (min-width: 1280px) {        
   width: 538px;
   height: 538px;
   }
    }
   .hero__ice-cream-picture {
   position: absolute;
-  top: 92px;
-  left: 117px;
   z-index: 2;
+  @media screen and (max-width: 319px) {
+    top: 28px;
+    left: 117px;
+    }
+  @media screen and (min-width: 320px) {
+    // top: 92px;
+    top: 28px;
+    left: 117px;
+}
   @media screen and (min-width: 768px) {
     top: 63px;
     left: 378px;
     }
-                    @media screen and (min-width: 1280px) {        
+  @media screen and (min-width: 1280px) {        
     }
    }
-  //    fourth-block
+  //    FOURTH-BLOCK
   .hero__fourth-block {
         @media screen and (max-width: 767px) {
             position: absolute;
@@ -180,58 +275,133 @@
             clip: rect(0 0 0 0);
             overflow: hidden;
           }
-          @media screen and (mшт-width: 768px) {
-        
-          }
+          // @media screen and (min-width: 768px) {
+          // }
     // display: flex;
     // flex-direction: column; 
-    position: absolute;
+    @media screen and (min-width: 768px) {
+      position: absolute;
     top: 94px;
   left: 691px;
+    }
+    @media screen and (min-width: 1280px) {
+    top: 156px;
+  // left: 1111px;
+    }
   }
-  .hero__facilities-item:first-child {
-    position: relative;
-    width: 43px;
-    height: 44px;
-  margin-bottom: 13px;
-  margin-left: 8px
+  @media screen and (min-width: 768px) {
+    .hero__facilities-item:first-child {
+      position: relative;
+      width: 43px;
+      height: 44px;
+    margin-bottom: 13px;
+    margin-left: 8px
+    }
   }
+  @media screen and (min-width: 1280px) {
+    .hero__facilities-item:first-child {
+      width: 72px;
+      height: 77px;
+      margin-left: 20px;
+    }
+    }
+
+@media screen and (min-width: 768px) {
   .hero__facilities-item:last-child {
     position: relative;
     width: 51px;
     height: 43px;
   }
-  .hero__facilities {
+}
+
+  @media screen and (min-width: 1280px) {
+    .hero__facilities-item:last-child {
+      width: 92px;
+      height: 76px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+     .hero__facilities {
     position: absolute;
     display: flex;
     flex-direction: column;
     bottom: 0px;
+    z-index: 2;
   }
+  }
+  @media screen and (min-width: 768px) {
+    .hero__facilities--cafes {
+      width: 33px;
+    }
+ }
+ @media screen and (min-width: 1280px) {
   .hero__facilities--cafes {
-    width: 33px;
+    width: 54px;
   }
+}
+@media screen and (min-width: 768px) {
   .hero__facilities--trucks {
     width: 43px;
     text-align: right;
   }
-  .hero__quantity {
-    font-family: Titan One;
-    font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #D41443;
+}
+@media screen and (min-width: 1280px) {
+.hero__facilities--trucks {
+  width: 74px;
+}
+}
+  @media screen and (min-width: 768px) {
+    .hero__quantity {
+      font-family: Titan One;
+      font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443; 
   }
-  .hero__facility {
-    font-family: DM Sans;
-    font-weight: 400;
-    font-size: 8px;
-    line-height: 10px;
-    text-align: right; 
-    color: #FFFFFF;
   }
-  // fifth-block
+  @media screen and (min-width: 1280px) {
+    .hero__quantity {
+      font-size: 46px;
+    line-height: 53px;
+  }
+  }
+  @media screen and (min-width: 768px) {
+    .hero__facility {
+      font-family: DM Sans;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 10px;
+      text-align: right; 
+      color: #FFFFFF;
+  }
+  }
+  @media screen and (min-width: 1280px) {
+    .hero__facility {
+      font-size: 14px;
+      line-height: 18px;
+  }
+  }
+  @media screen and (min-width: 768px) {
+    .hero__facilities-circle {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #FFFFFF;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+  }
+}
+  @media screen and (min-width: 1280px) {
+    .hero__facilities-circle {
+      width: 30px;
+      height: 30px;
+  }
+}
+  // FIFTH-BLOCK
   .hero__so-tasty-picture {
     @media screen and (max-width: 767px) {
       position: absolute;
@@ -245,4 +415,17 @@
       clip: rect(0 0 0 0);
       overflow: hidden;
     }
+    @media screen and (min-width: 768px) {
+      position: absolute;
+     top:266px;
+     right: 34px;
+     z-index: 3;
+      }
   }
+  // .hero__fifth-block {
+  //   position: absolute;
+  //   z-index: 200;
+  //   background-image: url(../images/so-tasty-tab-1x-min.png);
+  //   width: 168px;
+  //   height: 133px;
+  // }
