@@ -88,31 +88,3 @@
     margin-bottom: 18px;
   }
 }
-
-.review__slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-.slider-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-.slider-list__item {
-  color: #d9d9d9;
-  margin-right: 18px;
-  &:last-child {
-    margin-right: 0;
-  }
-}
-.slider-list__icon {
-  fill: #d9d9d9;
-}
-
-.slider-list__link:hover .slider-list__icon,
-.slider-list__link:focus .slider-list__icon {
-  fill: #d41443;
-}
