@@ -123,14 +123,14 @@
 }
 .slider {
   @media screen and (min-width: 768px) {
-    padding-top: 121px;
+    // padding-top: 121px;
     padding-bottom: 197px;
   }
   @media screen and (min-width: 1280px) {
-    padding-top: 123px;
+    // padding-top: 123px;
     padding-bottom: 234px;
   }
-  padding-top: 80px;
+  // padding-top: 80px;
   padding-bottom: 170px;
   @media screen and(min-width: 768px) {
     height: 418px;
@@ -143,12 +143,12 @@
   overflow: hidden;
   border: none;
 }
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// .middle {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
 .navigation {
   @media screen and (min-width: 768px) {
     bottom: 209px;
