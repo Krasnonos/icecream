@@ -8,9 +8,17 @@
   background-repeat: no-repeat;
   background-position: left calc(50% + 50px) bottom 0px, left calc(50% + 50px) bottom 75px;
 }
-.header {
-  padding-top: 6px;
-}
+// HERO
+// HERO-MAIN BLOCK
+.hero__main-block { 
+  z-index: 3;
+  @media screen and (min-width: 768px) { 
+
+  }
+  @media screen and (min-width: 1280px) { 
+margin-left: 69px;
+  }
+  }
 .hero {
   padding-top: 137px;
   padding-bottom: 160px;
@@ -59,53 +67,86 @@
 
 .hero__list {
   display: flex;
-  list-style: none;
-  padding: 0;
-  margin-top: 19px;
-  margin-bottom: 0px;
-}
-
-.hero__item {
-  width: auto;
-  height: 24px;
-}
-
-.hero__item + .hero__item {
-  margin-left: 15px;
-}
-
-.hero__link {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 10px;
-  border-radius: 20px;
-  padding-left: 14px;
-  padding-right: 14px;
-  text-decoration: none;
-}
-
-.hero__link--product {
-  color: #ffffff;
-  background-color: #d41443;
-  &:hover, &:focus {
-    background-color: #C7133E;
+      margin-top: 19px;
+      @media screen and (min-width: 768px) { 
+        margin-top: 20px;
+      }
+      @media screen and (min-width: 1280px) { 
+        margin-top: 25px;
+      }
+    }
+// .hero__item {
+//   width: auto;
+// }
+  .hero__item:first-child {
+    margin-right: 8px;
+    @media screen and (min-width: 1280px) { 
+      margin-right: 15px;
+    }
   }
-}
-
-.hero__link--made {
-  color: #d41443;
-  background-color: #ffffff;
-  &:hover, &:focus {
-    background-color: #ECEBEB;
+// .hero__item + .hero__item {
+//   margin-left: 15px;
+// }
+.hero__links {
+     display: flex;
+    margin-top: 19px;
+    @media screen and (min-width: 768px) { 
+      margin-top: 20px;
+    }
+    @media screen and (min-width: 1280px) { 
+      margin-top: 25px;
+    }
   }
-}
+  .hero__links-item:first-child {
+    margin-right: 8px;
+    @media screen and (min-width: 1280px) { 
+      margin-right: 15px;
+    }
+  }
+  .hero__link-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10.42px;
+    border-radius: 20px;
+    @media screen and (min-width: 1280px) { 
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .hero__link-text--pro {
+    width: 62.4px;
+    height: 24px;
+    color: #FFFFFF;
+    background-color: #D41443;
+    @media screen and (min-width: 1280px) { 
+      width: 104px;
+    height: 40px;
+    }
+  }
+  .hero__link-text--pro:hover,
+  .hero__link-text--pro:focus {
+    background: #C7133E;
+  }
+  .hero__link-text--how {
+    width: 82.8px;
+    height: 24px;
+    color: #D41443;
+    background-color: #FFFFFF;
+    @media screen and (min-width: 1280px) { 
+      width: 138px;
+    height: 40px;
+    }
+  }
+  .hero__link-text--how:hover,
+  .hero__link-text--how:focus {
+    background: #ECEBEB;
+  }
+  .hero__link {
+    text-decoration: none;
+  }
 // HERO
 // // .abc {
 // //   @media screen and (min-width: 768px) { 
@@ -181,44 +222,6 @@
 //     font-size: 38px;
 //     line-height: 44px;
 //   }
-//   }
-//   .hero__word {
-//     // @media screen and (max-width: 240px) { 
-//     //   font-size: 34px;
-//     //   line-height: 31px;
-//     // }
-//     font-weight: 400;
-//     z-index: 10;
-//     color: 
-//     #D41443;
-//     @media screen and (min-width: 241px) { 
-//       font-size: 46.32px;
-//       line-height: 46px;
-//     }
-//     @media screen and (min-width: 768px), (max-width: 240px)   { 
-//       font-size: 34px;
-//   line-height: 31px;
-//     }
-//     @media screen and (min-width: 1280px) { 
-//       font-size: 58px;
-//       line-height: 52px;
-//     }
-//   }
-//   .hero__links {
-//      display: flex;
-//     margin-top: 19px;
-//     @media screen and (min-width: 768px) { 
-//       margin-top: 20px;
-//     }
-//     @media screen and (min-width: 1280px) { 
-//       margin-top: 25px;
-//     }
-//   }
-//   .hero__links-item:first-child {
-//     margin-right: 8px;
-//     @media screen and (min-width: 1280px) { 
-//       margin-right: 15px;
-//     }
 //   }
 //   .hero__link-text {
 //     display: flex;
