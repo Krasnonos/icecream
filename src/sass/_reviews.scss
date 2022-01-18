@@ -139,25 +139,25 @@
     height: 418px;
   }
 
-  height: 486px;
+  height: 621px;
   overflow: hidden;
   border: none;
 }
-// .middle {
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
+.middle {
+  position: relative;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+}
 .navigation {
   @media screen and (min-width: 768px) {
-    bottom: 209px;
+    bottom: 20px;
   }
   @media screen and (min-width: 1280px) {
-    bottom: 260px;
+    bottom: 50px;
   }
   position: absolute;
-  bottom: 182px;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
