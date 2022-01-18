@@ -26,6 +26,14 @@
 }
 
 .review__section__text {
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 2.16;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
   margin-top: 0.8em;
   font-family: DM Sans;
   font-style: normal;
@@ -53,11 +61,19 @@
   margin-bottom: 18px;
 }
 .review__title {
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 1.86;
+  }
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 186%;
+  line-height: 1.84;
   text-align: center;
   color: #000;
   margin-bottom: 30px;
