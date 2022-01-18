@@ -1,4 +1,5 @@
 .heder{
+    position: absolute;
     padding-top: 6px;
     @media screen and(min-width:480px) {
     background: $main-current-color;
@@ -49,7 +50,7 @@ transform: translateX(100%);
 
 
 
-& .is-open{
+&.is-open{
     transform: translateX(0%);  
    
 }
