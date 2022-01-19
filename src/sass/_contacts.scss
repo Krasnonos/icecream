@@ -66,7 +66,7 @@
     border-radius: 24px;
     text-align: left;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 3 * 20px) / 3);
+    flex-basis: calc((100% - 3 * 10px) / 3);
   }
 
   @media screen and (min-width: 1200px) {
@@ -116,7 +116,7 @@
     border-radius: 24px;
     text-align: left;
 
-    flex-basis: calc((100% - 3 * 20px) / 3);
+    flex-basis: calc((100% - 3 * 10px) / 3);
   }
 
   @media screen and (min-width: 1200px) {
@@ -272,7 +272,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 186%;
-    /* identical to box height, or 26px */
 
     letter-spacing: 0.04em;
 
@@ -297,7 +296,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
 
   color: $third-text-color;
 
@@ -366,7 +364,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 186%;
-    /* or 26px */
 
     color: $fourth-text-color;
   }
@@ -389,14 +386,13 @@
   font-size: 12px;
   line-height: 186%;
 
-  color: #$fourth-text-color;
+  color: $fourth-text-color;
   @media screen and (min-width: 768px) {
     font-family: DM Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 186%;
-    /* or 26px */
 
     color: $fourth-text-color;
   }
@@ -512,7 +508,7 @@
   margin-bottom: 10px;
   padding-left: 17px;
   padding-right: 17px;
-  background-color: $main-text-color;
+  background-color: $hover-bg-color;
   border: none;
   font-family: DM Sans;
   font-style: normal;
@@ -553,15 +549,8 @@
   }
 }
 
-// .contacts__button:hover,
-// .contacts__icon-arrow :focus {
-//   background: #d41342;
-//   color: #ffffff;
-//   fill: #ffffff;
-// }
-
 .contacts__button-second {
-  background: $main-text-color;
+  background: $hover-bg-color;
   border-radius: 22px;
   width: 161px;
   height: 44px;
@@ -574,7 +563,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  // display: flex;
+
   align-items: center;
   text-align: center;
 
