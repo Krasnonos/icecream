@@ -16,8 +16,12 @@
   }
 
 .heder{
+    @media screen and(max-width: 479px){
+width: 90vw;
+    }
     position: absolute;
     padding-top: 6px;
+
     
     background: $main-current-color;
 //    height: 64px;
