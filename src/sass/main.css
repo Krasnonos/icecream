@@ -1585,10 +1585,24 @@ img {
   padding: 40px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .modal__info {
     width: 450px;
     height: 609px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal__info {
+    width: 450px;
+    height: 609px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal__info {
+    width: 97%;
+    height: 97%;
   }
 }
 
@@ -1606,7 +1620,7 @@ img {
 }
 
 .modal__close {
-  border: none;
+  border-radius: 50%;
 }
 
 .is-hidden {
@@ -1649,7 +1663,7 @@ img {
   letter-spacing: 0.02em;
   color: #000000;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 /* Modal -- form */
@@ -1694,6 +1708,13 @@ img {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 95%;
+    height: 95%;
+  }
+}
+
 .modal__button-commit {
   width: 200px;
   height: 50px;
@@ -1714,7 +1735,6 @@ img {
   width: 30px;
   height: 30px;
   background-color: transparent;
-  border: 1px solid #fff5f6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1724,6 +1744,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: none;
 }
 
 .modal__close-icon {
@@ -1731,8 +1752,7 @@ img {
   transition: fill 250ms linear;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: #ffffff;
-  border: none;
+  color: #d41342;
 }
 
 .modal__close-icon:hover {
@@ -1740,7 +1760,7 @@ img {
 }
 
 .modal__close {
-  border: none;
+  border: 50%;
 }
 
 .is-hidden {
@@ -1896,7 +1916,7 @@ img {
   width: 38px;
   height: 22px;
   border-radius: 50px;
-  border: 1px solid #ffffff;
+  border: 1px solid #d41443;
   margin-right: 4px;
   background-color: #ffffff;
   -webkit-transition: background-color 250ms linear;
