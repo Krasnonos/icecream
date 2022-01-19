@@ -508,7 +508,7 @@
   margin-bottom: 10px;
   padding-left: 17px;
   padding-right: 17px;
-  background-color: $hover-bg-color;
+  background-color: $main-btn-color;
   border: none;
   font-family: DM Sans;
   font-style: normal;
@@ -550,7 +550,7 @@
 }
 
 .contacts__button-second {
-  background: $hover-bg-color;
+  background: $main-text-color;
   border-radius: 22px;
   width: 161px;
   height: 44px;
@@ -570,7 +570,7 @@
   color: $hover-text-color;
   &:hover,
   &:focus {
-    background: $main-btn-color;
+    background: $hover-bg-color;
     color: $main-text-color;
     fill: $main-text-color;
     .contacts__icon-arrow {
