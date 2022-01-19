@@ -411,10 +411,6 @@
 
 // overlay------------------------------------------------------------
 
-.on-hover:hover + .hidden-block {
-  opacity: 1;
-  transition: 1s;
-}
 .overlay__caption {
   max-width: 200px;
   font-family: DM Sans;
@@ -444,7 +440,7 @@
   overflow: hidden;
 }
 .overlay--ice-cream {
-  margin-top: 5px;
+  margin-top: 1px;
   border-radius: 24px;
   position: absolute;
   width: 280px;
@@ -481,7 +477,7 @@
   overflow: hidden;
 }
 .overlay--ice-coffee {
-  margin-top: 5px;
+  margin-top: 1px;
   border-radius: 24px;
   position: absolute;
   width: 280px;
@@ -518,7 +514,7 @@
   overflow: hidden;
 }
 .overlay--milkshakes {
-  margin-top: 5px;
+  margin-top: 1px;
   border-radius: 24px;
   position: absolute;
   width: 280px;
