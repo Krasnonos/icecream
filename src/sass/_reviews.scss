@@ -1,7 +1,20 @@
 .container-1 {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 170px;
+  }
+
+  @media screen and(min-width: 768px) {
+    height: 418px;
+    margin-bottom: 197px;
+  }
+  @media screen and(min-width: 1280px) {
+    height: 418px;
+    margin-bottom: 234px;
+  }
+  margin: 0 auto;
+  height: 621px;
   width: 100%;
 
-  margin: 0 auto;
   @media screen and(min-width: 320px) {
     width: 280px;
   }
@@ -122,24 +135,8 @@
   }
 }
 .slider {
-  @media screen and (min-width: 768px) {
-    // padding-top: 121px;
-    padding-bottom: 197px;
-  }
-  @media screen and (min-width: 1280px) {
-    // padding-top: 123px;
-    padding-bottom: 234px;
-  }
   // padding-top: 80px;
-  padding-bottom: 170px;
-  @media screen and(min-width: 768px) {
-    height: 418px;
-  }
-  @media screen and(min-width: 1280px) {
-    height: 418px;
-  }
 
-  height: 621px;
   overflow: hidden;
   border: none;
 }
