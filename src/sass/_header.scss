@@ -36,14 +36,24 @@
     margin-right: 0px;
     border: none;
     @media screen and(min-width:768px){
-        display: none;
+        // display: none;
         // position: absolute;
         // content: "";
         // top: 0;
         // right: 0;
         // transform: translate(-700%,256%);
     }
-  }
+    @media screen and(min-width:768px){
+        position: absolute;
+        content: "";
+      top: 0;
+      right: 0;   
+      transform: translate(-815%,255%);
+      z-index: 50;
+    }
+
+    } 
+
 
 
 
