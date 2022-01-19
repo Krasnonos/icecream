@@ -519,7 +519,7 @@
   align-items: center;
   text-align: center;
 
-  color: $hover-text-color;
+  color: $main-text-color;
   &:hover,
   &:focus {
     background: $main-btn-color;
@@ -601,7 +601,7 @@
 
   &:hover,
   &:focus {
-    color: $main-text-color;
+    color: $hover-text-color;
     fill: $main-text-color;
   }
 }
