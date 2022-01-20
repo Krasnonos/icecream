@@ -369,3 +369,9 @@
     letter-spacing: 0.03em;
   }
 }
+
+.modal__checkbox-text {
+  @media screen and (min-width: 768px) {
+    text-align: center;
+  }
+}
